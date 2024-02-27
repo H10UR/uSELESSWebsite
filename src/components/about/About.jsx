@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { RiFindReplaceLine } from "react-icons/ri";
-import me from "../../assets/skj.jpg";
 const About = () => {
   return (
     <section className="about">
