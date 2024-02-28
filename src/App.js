@@ -4,6 +4,7 @@ import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Contact from "./components/contact/Contact";
 import TeamPage from "./components/team/TeamPage";
+import BlogPage from "./components/Blog/BlogPage";
 // Add module imports for CART
 import About from "./components/about/About";
 
@@ -27,7 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/blog" element={<About />} />
+        <Route path="/blog" element={<BlogPage />} />
        
       </Routes>
       <Footer />
