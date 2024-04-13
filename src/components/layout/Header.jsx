@@ -12,7 +12,7 @@ const Header = ({ isLoggedIn, setIsLoggedIn }) => {
       </motion.div>
       <div>
         <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
+        {/* <Link to="/contact">Contact</Link> */}
         {/* <Link to="/about">About</Link> */}
         {/* <Link to="/blog">Blog</Link> */}
         {/* <Link to="/team">Our Team</Link> */}

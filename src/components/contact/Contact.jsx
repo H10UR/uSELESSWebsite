@@ -21,7 +21,7 @@ const Contact = () => {
           <div
             style={{
               color: "red",
-              transform: "translate(25%,-700%)",
+              transform: "translate(0%,-700%)",
               backgroundColor: "#fff",
               padding: "10px",
               borderRadius: "5px",
