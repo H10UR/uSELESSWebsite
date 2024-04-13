@@ -1,6 +1,6 @@
 
 import React from "react";
-import { IoAperture } from "react-icons/io5";
+import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -8,7 +8,7 @@ const Header = ({ isLoggedIn, setIsLoggedIn }) => {
   return (
     <nav>
       <motion.div initial={{ y: "-100%" }} whileInView={{ y: 0 }}>
-        <IoAperture />
+        <img src={logo} alt="logo" />
       </motion.div>
       <div>
         <Link to="/">Home</Link>
