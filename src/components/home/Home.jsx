@@ -1,7 +1,7 @@
 // Write all the code here
 import React from "react";
 import { motion } from "framer-motion";
-import Founder from "./Founder";
+import Sponsors from "./sponsors";
 import About from "./About";
 const Home = () => {
   const options = {
@@ -29,7 +29,7 @@ const Home = () => {
           </motion.p>
         </div>
         <motion.a
-          href="#menu"
+          href="#about"
           initial={{
             y: "-100%",
             opacity: 0,
@@ -46,7 +46,7 @@ const Home = () => {
         </motion.a>
       </section>
       <About />
-      <Founder />
+      <Sponsors />
     </>
   );
 };

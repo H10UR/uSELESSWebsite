@@ -1,0 +1,50 @@
+@import "colors";
+
+#about {
+  width: 100%;
+  min-height: 70vh;
+  background-color: white;
+  padding: 4rem;
+
+  > h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-evenly;
+  
+    > p {
+      letter-spacing: 3px;
+      word-spacing: 3px;
+      padding: 2rem;
+      width: 50%;
+      text-align: center;
+      margin: auto;
+    }
+    > img {
+      height: 15rem;
+      width: 100%;
+      object-fit: contain;
+    }
+    > .card{
+      margin: 1rem;
+    }
+    
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  #menu > div {
+    flex-direction: column;
+  }
+
+  .menuCard {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+

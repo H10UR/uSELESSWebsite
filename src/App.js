@@ -3,19 +3,15 @@ import Home from "./components/home/Home";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Contact from "./components/contact/Contact";
-import TeamPage from "./components/team/TeamPage";
-import BlogPage from "./components/Blog/BlogPage";
-// Add module imports for CART
 import About from "./components/about/About";
 
 import "./styles/app.scss";
 import "./styles/header.scss";
 import "./styles/home.scss";
-import "./styles/founder.scss";
-import "./styles/menu.scss";
+import "./styles/sponsors.scss";
+import "./styles/homeAbout.scss";
 import "./styles/footer.scss";
 import "./styles/contact.scss";
-import "./styles/table.scss";
 import "./styles/about.scss";
 
 function App() {
@@ -27,8 +23,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/team" element={<TeamPage />} />
-        <Route path="/blog" element={<BlogPage />} />
        
       </Routes>
       <Footer />
